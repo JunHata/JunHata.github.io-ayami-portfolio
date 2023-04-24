@@ -150,7 +150,7 @@
 
 
 .top-container {
-    padding-top: 128px;
+    padding: 128px 0;
 }
 
 .main-nav {
@@ -204,7 +204,7 @@
 
 .main-box {
     width: 100vw;
-    min-height: 100vh;
+    min-height: 80vh;
     position: relative;
 }
 
@@ -676,5 +676,4 @@ input[type="submit"]:hover {
     text-align: center;
     color: #FFFFFF;
     padding-bottom: 0.5rem;
-    margin-top: 4rem;
 }
