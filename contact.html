@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ja" prefix="og:http://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="jun制作のポートフォリオです。">
+    <meta property="og:url" contact="https://example.com/index.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Ayami_Portfolio Contact">
+    <meta property="og:description" content="jun制作のポートフォリオです。">
+    <meta property="og:image" contact="img/fashion-sanpo_logo.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@jun_230109">
+    <title>Ayami_Portfolio Contact</title>
+    <link rel="icon" type="image/png" href="img/fashion-sanpo_logo.png">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width:769px)" href="css/style_pc.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width:768px)" href="css/style_sp.css">
+</head>
+
+<body class="body">
+
+    <div class="bg-gradient">
+
+        <header id="header">
+            <div class="glass-header">
+                <div class="glass-header__null"></div>
+                <h1 class="glass-header__text"><a href="index.html">Ayami_Portfolio</a></h1>
+                <div class="glass-header__hum-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="fashion-sanpo-logo">
+                <a href="index.html">
+                    <img class="fashion-sanpo-logo__img" src="img/fashion-sanpo_logo.png" alt="ファッションさんぽロゴ">
+                </a>
+            </div>
+        </header>
+
+        <div class="top-container">
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <nav class="main-nav-sp">
+                <ul>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <main class="main-box">
+                <h1 class="head1 contact">Contact</h1>
+                <article class="contact-box">
+                    <section class="contact-box__text">
+                        <p>ここにサロン名</p>
+                        <p>
+                            〒XXX-XXXX<br>
+                            北海道札幌市○○区X条X丁目X-X<br>
+                            ビル XF
+                        </p>
+                        <br>
+                        <p>
+                            札幌市営地下鉄◯○駅<br>
+                            札幌市大通り市電通り<br>
+                            隣はガラス張りのビルです。<br>
+                            裏にコインパーキングがございます。
+                        </p>
+                        <div class="sns-link">
+                            <a href="https://www.instagram.com" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="https://twitter.com" target="_blank">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </div>
+                    </section>
+                    <div class="contact-box__maplink">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16919.900015420197!2d141.33889904798616!3d43.062848305640244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b2974d2c3f903%3A0xa5e2b18cdd4a47a5!2z5pyt5bmM6aeF!5e0!3m2!1sja!2sjp!4v1682319930186!5m2!1sja!2sjp"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </article>
+                <article class="contact-form">
+                    <h2 class="head2">お問い合わせフォーム</h2>
+                    <div class="contact-form__text">
+                        <h3 class="head3">下記お問い合わせフォームよりご連絡ください！</h3>
+                        <p>
+                            ①お名前<br>
+                            ②メールアドレス<br>
+                            ③お問い合わせ内容（ご質問や診断のご予約など）<br>
+                            数日以内にご記入いただいたメールアドレスにお返事いたします。
+                        </p>
+                    </div>
+                    <form method="POST" action="#">
+                        <div class="form-name">
+                            <label for="name">お名前</label>
+                            <input type="text" id="name" name="your-name" placeholder="北海道　雪子">
+                        </div>
+                        <div class="form-email">
+                            <label for="email">メールアドレス（必須）</label>
+                            <input type="email" id="email" name="your-email" placeholder="example@mail.com">
+                        </div>
+                        <div class="form-message">
+                            <label for="message">お問い合わせ内容（必須）</label>
+                            <textarea id="message" name="your-message" placeholder="こちらにお問い合わせ内容を入力してください。"></textarea>
+                        </div>
+                        <input type="submit" class="submit-btn" value="送信">
+                    </form>
+                </article>
+            </main>
+
+        </div>
+
+        <footer id="footer">
+            <p class="copyright">Copyright &copy; jun 2023</p>
+        </footer>
+
+    </div>
+
+    <div class="menu-show-bg"></div>
+
+    <script type="text/javascript" src="js/jquery-3.6.3.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+
+</body>
+
+</html>
